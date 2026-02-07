@@ -40,7 +40,7 @@ cmd({
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363348739987203@newsletter',
-                newsletterName: config.OWNER_NAME,
+                newsletterName: config.DARK,
                 serverMessageId: 143
             }
         };
@@ -51,7 +51,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yj7zp0.png' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/BV71M1SZ/icon-app.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
